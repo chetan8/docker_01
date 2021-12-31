@@ -6,6 +6,6 @@ MAINTAINER chetan
 
 USER root
 
-RUN apt-get -y
+RUN apt-get update
 
 CMD ["echo" "Hello world..!"]
