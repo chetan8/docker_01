@@ -6,6 +6,6 @@ MAINTAINER chetan
 
 USER root
 
-RUN yum updte -y
+RUN apt-get -y
 
 CMD ["echo" "Hello world..!"]
